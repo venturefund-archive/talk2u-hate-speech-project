@@ -1,0 +1,12 @@
+# Hate Speech Project
+For the past 12 months, we have worked on a project that addresses the mitigation of the impact of hate speech on victims and bystanders by providing digital micro-interventions that help them be prepared to face this growing tendency online. Target audience are young brazilians from 18 to 24 years old, the content will be distributed in Portuguese.
+
+We introduce the topic with a powerful journey "Como Se Eu Fosse" to raise awareness about the topic and how it impacts people, and then we educate and guide them on proper behaviors to help prevent its expansion and protective actions to combat perpetrators in a healthy and productive way
+
+Talk2U is the owner of the Hate Speech Journey and, as we have agreed with our collaborators, parts of it will be licensed as Open Content for more organizations to kickoff this journey in their communities. The content package with its corresponding licenses includes
+
+- Research Tools: a survey model to extract target audience insights around the topic and a behavior map framework we used with real case example of how we designed the experience for you to replicate and adapt according to your community and target audience
+- Journey: the original script, all the audiovisual assets to make the experience more engaging and the AI training and testing sets we used to train and assess our AI performance.
+- Chat Interventions: we have created a journey with 3 interventions that guide participants to choose strategic silence in order to prevent the growth of the algorithm, take a pause to process feelings of rage, sadness or frustration to be able to make a strategic decision and the delivery of technical coping mechanisms on how to protect themselves. All scripts include indicators that can be asked at the beginning and at the end of the intervention to measure impact, as well as the original script, audiovisual assets and complementary scripts to integrate the experience. In the Strategic Silence case, we also included a AI training and testing set too.
+- Platform Flows: get all the platform flows to upload directly on your rapidPro (Open Source) compatible platform or similar that can support .json file integration. Basically, they are the "code" version of our scripts for the complete experience.
+- Privacy Policy: a draft model to use as a base for the whole experience where you just need to fill in with your organization data, and modify if needed the data points you will collecting, the purpose and how you process, store and manage personal information.
