@@ -1,0 +1,57 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"“Talk2U - AI Testing Set (SS)"" is made available with a CC BY-SA license.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Attributions to Talk2U,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,METRICS,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,intents_list,,,,,
+text,intent,intent_prediction,,intent_status,entities,,,,,,predicted_entities,,,,,entity_status,true_entities,,,,,,false_positive_entities,,,,,swapped_error_entities,,,precision,f1_score,accuracy,recall,support
+,,name,confidence,,start,end,value,entity,status,confidence,entity,start,end,value,extractor,,start,end,value,entity,status,confidence,entity,start,end,value,extractor,,,,,,,,
+situacoes como essa continuariam acontecendo,vitimizar,viralizar,0.92086374759674,error,,,,,,,,,,,,,,,,,,,,,,,,,,silenciado,0,0,0,0,1.0
+mal,viralizar,feelings,0.999974906444549,error,0,3,mal,bad,success,,bad,0,3,mal,DIETClassifierCustom,success,0,3,mal,bad,success,,,,,,,,,saude_mental,1.0,0.67,0,0.5,2.0
+virou vitima e ampliou o reach,viralizar,vitimizar,0.95748084783554,error,,,,,,,,,,,,,,,,,,,,,,,,,,viralizar,0.75,0.75,0,0.75,8.0
+para se defender,silenciado,vitimizar,0.544280290603637,error,,,,,,,,,,,,,,,,,,,,,,,,,,feelings,0.88,0.94,0,1.0,23.0
+isso provavelmente afetou sua auto estima,saude_mental,feelings,0.801603734493255,error,,,,,,,,,,,,,,,,,,,,,,,,,,vitimizar,0.85,0.81,0,0.79,14.0
+"mais comentarios maldosos, perseguicao, perigo de vida, perturbacao",vitimizar,feelings,0.693886578083038,error,,,,,,,,,,,,,,,,,,,,,,,,,,Average,0.84,0.84,0.85,0,0
+a situacao ia embora mais rapido,vitimizar,viralizar,0.82389360666275,error,,,,,,,,,,,,,,,,,,,,,,,,,,entities_list,,,,,
+com medo se pa,feelings,feelings,0.999464452266693,success,4,8,medo,bad,error,,bad,4,7,med,DIETClassifierCustom,error,4,8,medo,bad,error,,bad,4,7,med,DIETClassifierCustom,,,,precision,f1_score,accuracy,recall,support
+"provavelmente muito mal, chateada e desesperancosa",feelings,feelings,0.99999976158142,success,47,50,osa,bad,success,,bad,20,33,"mal, chateada",DIETClassifierCustom,error,47,50,osa,bad,success,,bad,20,33,"mal, chateada",DIETClassifierCustom,,,,,,,,
+paz,feelings,feelings,0.999873876571655,success,0,3,PAZ,good,error,,bad,0,3,paz,DIETClassifierCustom,error,0,3,PAZ,good,error,,bad,0,3,paz,DIETClassifierCustom,,,good,1.0,0.86,0,0.75,4.0
+pessima,feelings,feelings,0.545284271240234,success,0,3,Pés,bad,error,,,,,,,error,0,3,Pés,bad,error,,,,,,,,,bad,0.91,0.93,0,0.94,34.0
+mal,feelings,feelings,0.999974906444549,success,0,3,mal,bad,success,,bad,0,3,mal,DIETClassifierCustom,success,0,3,mal,bad,success,,,,,,,,,Average,0.92,0.92,0.99,0,0
+fiquei feliz que no final ele encontrou uma solucao,feelings,feelings,0.999305486679077,success,7,12,feliz,good,success,,good,7,12,feliz,DIETClassifierCustom,success,7,12,feliz,good,success,,,,,,,,,,,,,,
+ela nao teria repercussao e outras pessoas nao teriam visto o comentario dela,viralizar,viralizar,0.999956130981445,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fiquei triste por eles,feelings,feelings,0.998908758163452,success,7,13,triste,bad,success,,bad,7,13,triste,DIETClassifierCustom,success,7,13,triste,bad,success,,,,,,,,,,,,,,
+ela ia se poupar?,vitimizar,vitimizar,0.999993324279785,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triste,feelings,feelings,0.999970197677612,success,0,6,triste,bad,success,,bad,0,6,triste,DIETClassifierCustom,success,0,6,triste,bad,success,,,,,,,,,,,,,,
+nao teria impulsionado o post,viralizar,viralizar,0.999959170818328,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+se protegeria,vitimizar,vitimizar,0.99236249923706,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ser alvo de hate speech,vitimizar,vitimizar,0.999988913536071,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+n ser vitima nem receber mil comentarios ofensivos,vitimizar,vitimizar,1.0,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+se preservado,vitimizar,vitimizar,0.99712461233139,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+muito mal,feelings,feelings,0.999992847442627,success,6,9,mal,bad,success,,bad,6,9,mal,DIETClassifierCustom,success,6,9,mal,bad,success,,,,,,,,,,,,,,
+mal,feelings,feelings,0.999974906444549,success,0,3,mal,bad,success,,bad,0,3,mal,DIETClassifierCustom,success,0,3,mal,bad,success,,,,,,,,,,,,,,
+aumentou o medo,feelings,feelings,0.999991059303283,success,11,15,medo,bad,success,,bad,11,15,medo,DIETClassifierCustom,success,11,15,medo,bad,success,,,,,,,,,,,,,,
+ela teria menos problemas,vitimizar,vitimizar,0.999998152256012,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+virado vitima do odio,vitimizar,vitimizar,0.999998927116394,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+se sentiu pior ainda de que tava antes,feelings,feelings,0.999980211257934,success,10,14,pior,bad,success,,bad,10,14,pior,DIETClassifierCustom,success,10,14,pior,bad,success,,,,,,,,,,,,,,
+nao seria vitima,vitimizar,vitimizar,0.983195126056671,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triste,feelings,feelings,0.999970197677612,success,0,6,triste,bad,success,,bad,0,6,triste,DIETClassifierCustom,success,0,6,triste,bad,success,,,,,,,,,,,,,,
+nao engajar,viralizar,viralizar,0.999735236167907,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+super nervosa por que ela estava defendendo a opniao dela e a situacao saiu do controle,feelings,feelings,0.999846875667572,success,6,13,nervosa,bad,success,,bad,6,13,nervosa,DIETClassifierCustom,success,6,13,nervosa,bad,success,,,,,,,,,,,,,,
+exposicao desnecessaria,viralizar,viralizar,0.999998092651367,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+se sentiu uma diva por incomodar macho escroto nail polish,feelings,feelings,0.99939751625061,success,14,18,diva,good,success,,good,14,18,diva,DIETClassifierCustom,success,14,18,diva,good,success,,,,,,,,,,,,,,
+talvez as pessoas ia esquecer do post,viralizar,viralizar,0.999400615692138,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ela nao seria atacada daquela forma,vitimizar,vitimizar,0.797272682189941,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nao seria vitima de discurso de odio,vitimizar,vitimizar,0.999962627887725,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+porque se irritou com a situacao,feelings,feelings,0.99999713897705,success,10,17,irritou,bad,success,,bad,10,17,irritou,DIETClassifierCustom,success,10,17,irritou,bad,success,,,,,,,,,,,,,,
+se sentiu mal,feelings,feelings,0.999995827674865,success,10,13,mal,bad,success,,bad,10,13,mal,DIETClassifierCustom,success,10,13,mal,bad,success,,,,,,,,,,,,,,
+nao passaria raiva,feelings,feelings,0.998455762863159,success,13,18,raiva,bad,success,,bad,13,18,raiva,DIETClassifierCustom,success,13,18,raiva,bad,success,,,,,,,,,,,,,,
+nao gastar a energia em coisas erradas,saude_mental,saude_mental,0.999986886978149,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ataques a ela, sentimentos ruins e ate mais raiva",feelings,feelings,0.999792277812957,success,44,49,raiva,bad,success,,bad,44,49,raiva,DIETClassifierCustom,success,44,49,raiva,bad,success,,,,,,,,,,,,,,
+provavelmente muito mal,feelings,feelings,0.999996066093444,success,20,23,mal,bad,success,,bad,20,23,mal,DIETClassifierCustom,success,20,23,mal,bad,success,,,,,,,,,,,,,,
+desesperada,feelings,feelings,0.483630508184433,success,0,8,desesper,bad,success,,bad,0,8,desesper,DIETClassifierCustom,success,0,8,desesper,bad,success,,,,,,,,,,,,,,
+exposicao e multiplicacao do problema,viralizar,viralizar,0.999990582466125,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+horrivel,feelings,feelings,0.999979794025421,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+varias consequencuas,vitimizar,vitimizar,0.997116208076477,success,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ia ficar em paz,feelings,feelings,0.999918818473815,success,12,15,paz,good,success,,good,12,15,paz,DIETClassifierCustom,success,12,15,paz,good,success,,,,,,,,,,,,,,
